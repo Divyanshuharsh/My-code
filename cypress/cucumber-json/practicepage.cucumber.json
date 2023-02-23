@@ -1,0 +1,123 @@
+[
+  {
+    "description": "As a user I am able to use all the functions in the page",
+    "keyword": "Feature",
+    "name": "test function of the application",
+    "line": 1,
+    "id": "test-function-of-the-application",
+    "tags": [],
+    "uri": "practicepage.feature",
+    "elements": [
+      {
+        "id": "test-function-of-the-application;user-will-navigate-to-the-youtube-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User will navigate to the youtube page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User should land on the youtube page",
+            "result": {
+              "status": "passed",
+              "duration": 8596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user land on page and click on search box",
+            "result": {
+              "status": "passed",
+              "duration": 1204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user type \"nature 4k video\" in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 4260000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 1499000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-function-of-the-application;user-will-search-again",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User will search again",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User should click on Search button",
+            "result": {
+              "status": "passed",
+              "duration": 1149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user clear search field",
+            "result": {
+              "status": "passed",
+              "duration": 1448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user type \"cucumber\" in search box",
+            "result": {
+              "status": "passed",
+              "duration": 3043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user click on search button",
+            "result": {
+              "status": "passed",
+              "duration": 1052000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Search field should contain \"cucumber\" in the search box",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<input#search.ytd-searchbox>' to have text 'cucumber', but the text was ''\n    + expected - actual\n\n    +'cucumber'\n\n    at Function.searchcontain (https://www.youtube.com/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\practicepage.feature:147:41)\n    at Context.eval (https://www.youtube.com/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\practicepage.feature:73:27)\n    at Context.resolveAndRunStepDefinition (https://www.youtube.com/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\practicepage.feature:12437:29)\n    at Context.eval (https://www.youtube.com/__cypress/tests?p=cypress\\integration\\cucumber%2520bdd%2520test\\practicepage.feature:11758:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

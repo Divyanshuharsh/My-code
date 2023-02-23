@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test Tata Mortor Website",
+    "line": 1,
+    "id": "test-tata-mortor-website",
+    "tags": [],
+    "uri": "Tata.feature",
+    "elements": [
+      {
+        "id": "test-tata-mortor-website;user-will-navigate-to-tata-motor-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User will navigate to Tata Motor page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigate to landing page",
+            "result": {
+              "status": "passed",
+              "duration": 4159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on Sandwitch button",
+            "result": {
+              "status": "passed",
+              "duration": 2210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User click on Product",
+            "result": {
+              "status": "passed",
+              "duration": 1216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User click on Bus and Service page",
+            "result": {
+              "status": "passed",
+              "duration": 6753000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-tata-mortor-website;user-switch-between-load-transport-and-passanger-transport",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User switch between Load Transport and Passanger Transport",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User navigate to bus and service page assert the url",
+            "result": {
+              "status": "passed",
+              "duration": 2172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click on Passanger transport",
+            "result": {
+              "status": "passed",
+              "duration": 2191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User click on Load Transport",
+            "result": {
+              "status": "passed",
+              "duration": 2218000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-tata-mortor-website;user-click-on-multiple-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User click on multiple button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User click on the News button",
+            "result": {
+              "status": "passed",
+              "duration": 3252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on Videos button",
+            "result": {
+              "status": "passed",
+              "duration": 2182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User click on Twitter button",
+            "result": {
+              "status": "passed",
+              "duration": 2149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User click on Facebook button",
+            "result": {
+              "status": "passed",
+              "duration": 2232000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
