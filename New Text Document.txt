@@ -1,0 +1,17 @@
+class POM{
+
+static load_tatamotor(){
+    //cy.Tatamotors(); // Custom Command.
+    cy.visit(Cypress.env('url')) //Environmental Variable.
+}
+static Sandwitch_button(){
+    cy.sandwitch_button(); //Custom command.
+}
+static click_Product(){
+    cy.wait(1000)
+    highlight('.productCursor')
+    cy.get('.productCursor').click();
+}
+static click_Bus_and_Service(){
+    cy.wait(1000)
+    highlight('.full_nav > [href="/products/trucks-buses/"]')
